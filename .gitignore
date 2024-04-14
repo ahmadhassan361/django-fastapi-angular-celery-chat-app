@@ -158,4 +158,5 @@ cython_debug/
 /out-tsc
 
 # dependencies
-/node_modules
+/frontend_app/node_modules
+/frontend_app/.angular

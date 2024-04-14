@@ -1,0 +1,20 @@
+<div class="container">
+
+    <form class="col-lg-3 col-md-4 col-sm-8 col-12 mx-auto"  (ngSubmit)="signUp()">
+        <h1>Sign Up</h1>
+        <div class="mb-3">
+            <label for="fullname" class="form-label">fullname</label><br>
+            <input type="tex" class="form-control" id="fullname" name="fullname" [(ngModel)]="fullname">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label><br>
+            <input type="email" class="form-control" id="email" name="email" [(ngModel)]="email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">password</label><br>
+            <input type="password" class="form-control"  id="password" name="password" [(ngModel)]="password">
+        </div>
+      
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>

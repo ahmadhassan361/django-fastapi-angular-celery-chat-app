@@ -47,7 +47,7 @@ run the celery server
 
 install the node modules and run the angular frontend
 ```bash
-  cd frontend
+  cd frontend_app
   npm install  
   ng serve
 ```
